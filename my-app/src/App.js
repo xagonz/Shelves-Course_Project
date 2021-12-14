@@ -6,7 +6,7 @@ The hierachy is app -> Header, Meals, Cart -> their respective trees
 
 import {useState} from "react"; // we added useState from react because we manage the cart with fragment
 import Header from "./components/Layout/Header";
-import Meals from "./components/Meals/Meals";
+import Books from "./components/Books/Books";
 import Cart from "./components/Cart/Cart"; // this is used in here because it is a modal with a portal
 import CartProvider from "./store/CartProvider";
 
@@ -29,7 +29,7 @@ function App() {
       {cartIsShown && <Cart onClose={hideCartHandler}/>}
       <Header onShowCart={showCartHandler}/>
       <main>
-        <Meals />
+        <Books />
       </main>
     </CartProvider>
   );
