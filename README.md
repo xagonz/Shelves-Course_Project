@@ -22,7 +22,7 @@ Thus, Shelves was born! It uses Firebase as a real-time database, that we use to
 
 1. Make sure you have Visual Studio Code, and Node.js installed on your computer
     - https://code.visualstudio.com/download
-    - https://nodejs.org/en/download/ - I use LTS version: 16.13.1
+    - https://nodejs.org/en/download/ - We use LTS version: 16.13.1
 
 2. Choose a folder to clone the repository in.
 3. Open git bash and enter this command: 
